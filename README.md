@@ -2,6 +2,8 @@
 
 This project demonstrates how to test Objective-C classes with RubyMotion.
 
+Right now, there's an issue where RubyMotion can't call Obj-C methods with keyed arguments but hopefully there'll be a fix. See [Problems](#problems)
+
 ## Requirements
 
 * My fork of RubyMotion: [https://github.com/chendo/RubyMotion](https://github.com/chendo/RubyMotion) (pull requests pending: [#94](https://github.com/HipByte/RubyMotion/pull/94), [#95](https://github.com/HipByte/RubyMotion/pull/95))
