@@ -16,6 +16,8 @@
 		5847E8DD1750685D002053C2 /* CDOSomeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5847E8DC1750685D002053C2 /* CDOSomeClass.m */; };
 		5847E8E3175069E3002053C2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5847E8BE17506824002053C2 /* Cocoa.framework */; };
 		5847E8EE175069E8002053C2 /* CDOSomeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5847E8DC1750685D002053C2 /* CDOSomeClass.m */; };
+		58C1A8E717509368007DEA41 /* NSObject+RubyMotionHacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C1A8E517509368007DEA41 /* NSObject+RubyMotionHacks.h */; };
+		58C1A8E817509368007DEA41 /* NSObject+RubyMotionHacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C1A8E617509368007DEA41 /* NSObject+RubyMotionHacks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +36,9 @@
 		5847E8D417506824002053C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5847E8DB1750685D002053C2 /* CDOSomeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDOSomeClass.h; sourceTree = "<group>"; };
 		5847E8DC1750685D002053C2 /* CDOSomeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDOSomeClass.m; sourceTree = "<group>"; };
-		5847E8E2175069E3002053C2 /* libStaticLibaryForRubyMotion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStaticLibaryForRubyMotion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5847E8E2175069E3002053C2 /* libStaticLibaryForRubyMotion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libStaticLibaryForRubyMotion.a; path = libStaticLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C1A8E517509368007DEA41 /* NSObject+RubyMotionHacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RubyMotionHacks.h"; sourceTree = "<group>"; };
+		58C1A8E617509368007DEA41 /* NSObject+RubyMotionHacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RubyMotionHacks.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				5847E8C517506824002053C2 /* Supporting Files */,
 				5847E8DB1750685D002053C2 /* CDOSomeClass.h */,
 				5847E8DC1750685D002053C2 /* CDOSomeClass.m */,
+				58C1A8E517509368007DEA41 /* NSObject+RubyMotionHacks.h */,
+				58C1A8E617509368007DEA41 /* NSObject+RubyMotionHacks.m */,
 			);
 			path = TestingObjCFromRubyMotion;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58C1A8E717509368007DEA41 /* NSObject+RubyMotionHacks.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5847E8EE175069E8002053C2 /* CDOSomeClass.m in Sources */,
+				58C1A8E817509368007DEA41 /* NSObject+RubyMotionHacks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

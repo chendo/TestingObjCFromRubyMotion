@@ -1,4 +1,9 @@
 describe "CDOSomeClass" do
+  class CDOSomeClass
+    def dummy
+      self.methodWithKeyedArguments("foo", withSecondArgument: "bar")
+    end
+  end
   before do
     @some_class = CDOSomeClass.new
   end
@@ -16,6 +21,10 @@ describe "CDOSomeClass" do
   end
 
   describe "#methodWithKeyedArguments" do
+    it "HACK returns the first argument concat with the second arg" do
+      @some_class._methodWithKeyedArguments_withSecondArgument("foo", "bar").should == "foobar"
+    end
+
     it "returns the first argument concat with the second arg" do
       @some_class.methodWithKeyedArguments("foo", withSecondArgument: "bar").should == "foobar"
     end
