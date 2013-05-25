@@ -24,6 +24,7 @@ Objective-C stub for message `methodWithKeyedArguments:withSecondArgument:' type
 
 I'm fairly sure this is a bug with RubyMotion since the other method invocations work. Any help would be appreciated.
 
+In the meantime, I've hacked in a way to call methods with keyed arguments from RubyMotion. See [NSObject+RubyMotionHacks.m](https://github.com/chendo/TestingObjCFromRubyMotion/blob/master/TestingObjCFromRubyMotion/NSObject+RubyMotionHacks.m) and [RubyMotionHacks.rb](https://github.com/chendo/TestingObjCFromRubyMotion/blob/master/TestingObjCFromRubyMotion/spec/RubyMotionHacks.rb)
 
 
 Comments/feedback welcome!
